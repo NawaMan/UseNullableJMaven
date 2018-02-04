@@ -8,7 +8,7 @@ It basically boils down to adding NawaMan maven repository (hosted by github).
 
 ```xml
 <repository>
-	<id>DssbUtils-mvn-repo</id>
+	<id>Nullable-mvn-repo</id>
 	<url>https://raw.githubusercontent.com/nawaman/nawaman-maven-repository/master/</url>
 	<snapshots>
 		<enabled>true</enabled>
