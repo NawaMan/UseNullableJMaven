@@ -1,4 +1,7 @@
 # UseNullableJMaven
+
+![alt "Build status"](https://travis-ci.org/NawaMan/UseNullableJMaven.svg?branch=master)
+
 Example of how to use NullableJ in a Maven project.
 
 It basically boils down to adding NawaMan maven repository (hosted by github).
