@@ -4,7 +4,7 @@
 
 Example of how to use NullableJ in a Maven project.
 
-It basically boils down to adding NawaMan maven repository (hosted by github).
+It basically boils down to adding the required maven repository (hosted by github).
 
 ```xml
 <repository>
