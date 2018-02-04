@@ -24,7 +24,7 @@
 	<repositories>
 		<repository>
 			<id>NullableJ-mvn-repo</id>
-			<url>https://raw.githubusercontent.com/nawaman/nawaman/maven-repository/master/</url>
+			<url>https://raw.githubusercontent.com/nawaman/nawaman-maven-repository/master/</url>
 			<snapshots>
 				<enabled>true</enabled>
 				<updatePolicy>always</updatePolicy>
