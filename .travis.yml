@@ -1,4 +1,1 @@
 language: java
-script:
-  cd UseDssbUtilsMaven
-  mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
