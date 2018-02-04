@@ -1,10 +1,9 @@
 # UseNullableJMaven
 Example of how to use NullableJ in a Maven project.
 
-It basically boils down to adding dssb maven repository (hosted by github).
+It basically boils down to adding NawaMan maven repository (hosted by github).
 
 ```xml
-	<repositories>
 		<repository>
 			<id>DssbUtils-mvn-repo</id>
 			<url>https://raw.githubusercontent.com/nawaman/nawaman-maven-repository/master/</url>
@@ -13,9 +12,11 @@ It basically boils down to adding dssb maven repository (hosted by github).
 				<updatePolicy>always</updatePolicy>
 			</snapshots>
 		</repository>
-	</repositories>
+```
 
-	<dependencies>
+and the required dependencies ...
+
+```xml
 		<dependency>
 			<groupId>nawaman</groupId>
 			<artifactId>nullablej</artifactId>
@@ -27,6 +28,6 @@ It basically boils down to adding dssb maven repository (hosted by github).
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
 ```
-See the full code here: (pom.xml)[https://github.com/NawaMan/UseNullableJMaven/blob/master/pom.xml]
+See the full code here: [pom.xml](https://github.com/NawaMan/UseNullableJMaven/blob/master/pom.xml)
+
