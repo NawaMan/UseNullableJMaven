@@ -1,12 +1,12 @@
 package use.nullablej.maven;
 
-import static org.junit.Assert.assertTrue;
-
 import org.junit.Test;
+
+import static org.junit.Assert.assertTrue;
 
 import lombok.val;
 import lombok.experimental.ExtensionMethod;
-import nawaman.nullable.NullableJ;
+import nawaman.nullablej.NullableJ;
 
 @SuppressWarnings("javadoc")
 @ExtensionMethod({ NullableJ.class })
