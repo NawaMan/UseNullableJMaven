@@ -24,3 +24,4 @@ build/
 captures/
 output.json 
 /target/
+/.apt_generated/
