@@ -6,7 +6,7 @@ import static org.junit.Assert.assertTrue;
 
 import lombok.val;
 import lombok.experimental.ExtensionMethod;
-import nawaman.nullablej.NullableJ;
+import nullablej.NullableJ;
 
 @SuppressWarnings("javadoc")
 @ExtensionMethod({ NullableJ.class })
